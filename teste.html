@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="cardapio.css">
+    <title>Café do Davi</title>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <div class="fundoheader"><img src="https://pngimage.net/wp-content/uploads/2018/05/cafeteria-logo-png-2.png"
+                alt="logo"></div>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item mr-5 mb-1">
+                    <a href="index.html"><button type="button" class="btn btn-dark nav-link">Início</button></a>
+                </li>
+                <li class="nav-item mr-5 mb-1">
+                    <a href="/pages/cardapio.html" nav-link><button type="button" class="btn btn-dark nav-link">Cardápio</button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item mr-5 mb-1">
+                    <a href="/pages/historia.html" nav-link><button type="button" class="btn btn-dark nav-link">História</button></a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="/pages/contato.html" nav-link><button type="button" class="btn btn-dark nav-link">Contato</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="cardapio">
+
+        <h1>Nossos Produtos</h1>
+    
+<div class="table-responsive">
+    <table id="cardapio">
+        <thead>
+            <tr>     
+                <th>Produtos</th>
+                <th>Valores</th>    
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="produto">Café</td>
+                <td id="valor">2.00 R$</td>
+            </tr>
+
+            <tr>
+                <td id="produto">Suco</td>
+                <td id="valor">3.00 R$</td>
+            </tr>
+
+            <tr>
+                <td id="produto">Salgado</td>
+                <td id="valor">3.00 R$</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    </section>
+    
+    <footer>
+        <div>Cafeteria do Davi</div>
+        <div>Desenvolvido por Level 5</div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

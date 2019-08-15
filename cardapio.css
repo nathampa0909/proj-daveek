@@ -15,23 +15,27 @@ table#cardapio{
 
 table#cardapio th{
     font-size: 30pt;
-    background-color: rgba(150, 75, 0, .9);;
 }
 
 table#cardapio td{
     font-size: 35px;
 }
 
+table#cardapio th{
+    background-color: rgba(125, 62, 0, .6);
+}
+
+
 table#cardapio td#produto{
-    background-color: rgba(150, 75, 0, .8);
+    background-color: rgba(99, 50, 0, 1);
 }
 
 table#cardapio td#valor{
-    background-color: rgba(150, 75, 0, .7);
+    background-color: rgba(125, 62, 0, 1);
 }
 
 table#cardapio td, th{
-    border: 2px solid #964b00;
+    border-top: 2px solid #964b00;
     height:60px;
     padding:10px;
     text-align: center;
