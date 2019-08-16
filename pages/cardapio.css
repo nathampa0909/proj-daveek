@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+h1{
+    text-align:center;
+    font-size: 50pt;
+}
+
+table#cardapio{
+    border:2px solid #964b00;
+    border-spacing: 0px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table#cardapio th{
+    font-size: 30pt;
+}
+
+table#cardapio td{
+    font-size: 35px;
+}
+
+table#cardapio th{
+    background-color: rgba(125, 62, 0, .6);
+}
+
+
+table#cardapio td#produto{
+    background-color: rgba(99, 50, 0, 1);
+}
+
+table#cardapio td#valor{
+    background-color: rgba(125, 62, 0, 1);
+}
+
+table#cardapio td, th{
+    border-top: 2px solid #964b00;
+    height:60px;
+    padding:10px;
+    text-align: center;
+    vertical-align: middle;
+
+    
+}
