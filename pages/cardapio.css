@@ -6,7 +6,7 @@ h1{
 }
 
 table#cardapio{
-    border:2px solid #964b00;
+    border:2px solid rgb(44,44,44);
     border-spacing: 0px;
     margin-top:50px;
     margin-left:auto;
@@ -22,20 +22,19 @@ table#cardapio td{
 }
 
 table#cardapio th{
-    background-color: rgba(125, 62, 0, .6);
+    background-color: rgba(169, 169, 169, .7);
 }
 
-
 table#cardapio td#produto{
-    background-color: rgba(99, 50, 0, 1);
+    background-color: rgba(192, 192, 192, .7);
 }
 
 table#cardapio td#valor{
-    background-color: rgba(125, 62, 0, 1);
+    background-color: rgba(211, 211, 211, .7);
 }
 
 table#cardapio td, th{
-    border-top: 2px solid #964b00;
+    border-top: 2px solid rgb(44,44,44);
     height:60px;
     padding:10px;
     text-align: center;
