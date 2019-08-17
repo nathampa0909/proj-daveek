@@ -1,45 +1,40 @@
 @charset "UTF-8";
 
-h1{
-    text-align:center;
-    font-size: 50pt;
-}
-
 table#cardapio{
-    border:2px solid #964b00;
+    border:2px solid rgb(44,44,44);
     border-spacing: 0px;
     margin-top:50px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:50px;
 }
 
 table#cardapio th{
-    font-size: 30pt;
+    font-size: 15pt;
+    background-color:rgba(211, 211, 211, .7);
 }
 
 table#cardapio td{
-    font-size: 35px;
+    font-size: 17px;
 }
 
-table#cardapio th{
-    background-color: rgba(125, 62, 0, .6);
+table#cardapio td#valor, th#val{
+    border-left: 2px solid rgb(44,44,44);
+    width: 100pt;
 }
 
-
-table#cardapio td#produto{
-    background-color: rgba(99, 50, 0, 1);
+table#cardapio td#produto, th#prod{
+    width: 275pt;
 }
 
-table#cardapio td#valor{
-    background-color: rgba(125, 62, 0, 1);
-}
+tr:nth-child(even) {background: rgba(192, 192, 192, .7)}
+tr:nth-child(odd) {background: rgba(169, 169, 169, .7)}
 
 table#cardapio td, th{
-    border-top: 2px solid #964b00;
+    border-top: 2px solid rgb(44,44,44);
     height:60px;
     padding:10px;
     text-align: center;
     vertical-align: middle;
-
     
 }
